@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Navbar */
+.navbar, .subNav {
+  @apply flex items-center justify-between px-[25px];
+}
+.logo_tabs {
+  @apply flex items-center justify-between;
+}
+.tabs, .subNav ul, .subNav div {
+  @apply flex items-center gap-4;
+}
+.tabs a li {
+  @apply cursor-pointer font-medium text-[18px];
+}
+.logo {
+  @apply w-[90px] h-[100px];
+}
+.Search_ico {
+  @apply bg-[#f3f5f5] cursor-pointer p-2 rounded-sm;
+}
+/* Navbbar */
+
+/* subNav */
+.subNav{
+  @apply h-14 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-[#fff];
+}
+/* subNav */

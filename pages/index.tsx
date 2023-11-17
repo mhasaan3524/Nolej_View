@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Navbar from "./components/Navbar";
+import SubNavbar from "./components/SubNavbar";
 
 export default function Home() {
   return (
@@ -6,11 +8,8 @@ export default function Home() {
       <Head>
         <title>Nolej View</title>
       </Head>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto eius
-        sunt similique!
-        M Hasaan
-      </p>
+      <Navbar />
+      <SubNavbar />
     </>
   );
 }
